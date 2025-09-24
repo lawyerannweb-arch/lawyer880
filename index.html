@@ -143,39 +143,6 @@
                     <a href="legal-knowledge.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">法律知識</a>
                     <a href="#contact" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">聯絡我們</a>
 
-                    <!-- 語言選擇 -->
-                    <div class="relative ml-6">
-                        <button id="language-button" class="flex items-center space-x-2 text-white hover:text-accent-gold transition-colors duration-300 font-medium border border-white/30 rounded-lg px-3 py-2 hover:border-accent-gold/50">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-                            </svg>
-                            <span id="current-language">繁體中文</span>
-                            <svg class="w-4 h-4 transform transition-transform duration-200" id="language-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </button>
-
-                        <!-- 下拉選單 -->
-                        <div id="language-dropdown" class="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-xl border border-gray-200 py-2 opacity-0 invisible transform scale-95 transition-all duration-200 z-50">
-                            <button onclick="selectLanguage('繁體中文')" class="w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-accent-gold transition-colors duration-200 flex items-center space-x-3">
-                                <span class="text-lg">🇹🇼</span>
-                                <span class="font-medium">繁體中文</span>
-                            </button>
-                            <button onclick="selectLanguage('简体中文')" class="w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-accent-gold transition-colors duration-200 flex items-center space-x-3">
-                                <span class="text-lg">🇨🇳</span>
-                                <span class="font-medium">简体中文</span>
-                            </button>
-                            <button onclick="selectLanguage('English')" class="w-full text-left px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-accent-gold transition-colors duration-200 flex items-center space-x-3">
-                                <span class="text-lg">🇺🇸</span>
-                                <span class="font-medium">English</span>
-                            </button>
-                            <div class="border-t border-gray-200 mt-2 pt-2">
-                                <button onclick="closeLanguageDropdown()" class="w-full text-left px-4 py-2 text-gray-500 hover:bg-gray-50 transition-colors duration-200 text-sm">
-                                    取消
-                                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="lg:hidden">
                     <button id="mobile-menu-button" class="text-white hover:text-accent-gold transition-colors duration-300 focus:outline-none">
@@ -920,69 +887,6 @@
         }
     </script>
 
-    <script>
-        // 語言選擇功能
-        const languageButton = document.getElementById('language-button');
-        const languageDropdown = document.getElementById('language-dropdown');
-        const languageArrow = document.getElementById('language-arrow');
-        const currentLanguage = document.getElementById('current-language');
-
-        // 切換下拉選單
-        languageButton.addEventListener('click', function(e) {
-            e.stopPropagation();
-            toggleLanguageDropdown();
-        });
-
-        function toggleLanguageDropdown() {
-            const isOpen = !languageDropdown.classList.contains('opacity-0');
-
-            if (isOpen) {
-                closeLanguageDropdown();
-            } else {
-                openLanguageDropdown();
-            }
-        }
-
-        function openLanguageDropdown() {
-            languageDropdown.classList.remove('opacity-0', 'invisible', 'scale-95');
-            languageDropdown.classList.add('opacity-100', 'visible', 'scale-100');
-            languageArrow.style.transform = 'rotate(180deg)';
-        }
-
-        function closeLanguageDropdown() {
-            languageDropdown.classList.add('opacity-0', 'invisible', 'scale-95');
-            languageDropdown.classList.remove('opacity-100', 'visible', 'scale-100');
-            languageArrow.style.transform = 'rotate(0deg)';
-        }
-
-        // 選擇語言
-        function selectLanguage(language) {
-            currentLanguage.textContent = language;
-            closeLanguageDropdown();
-
-            // 這裡可以添加實際的語言切換邏輯
-            console.log('選擇語言:', language);
-
-            // 可以在這裡添加語言切換提示
-            if (language === 'English' || language === '简体中文') {
-                alert('此功能即將推出，敬請期待！');
-            }
-        }
-
-        // 點擊外部關閉下拉選單
-        document.addEventListener('click', function(e) {
-            if (!languageButton.contains(e.target) && !languageDropdown.contains(e.target)) {
-                closeLanguageDropdown();
-            }
-        });
-
-        // ESC鍵關閉下拉選單
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                closeLanguageDropdown();
-            }
-        });
-    </script>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-16">

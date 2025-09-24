@@ -9,7 +9,10 @@
       "WebFetch(domain:lawyer880.vercel.app)",
       "Bash(for file in article-inheritance-tax-planning.html article-inheritance-waiver.html article-mortgage-rights.html article-property-division.html article-real-estate-disputes.html article-will-invalidity.html)",
       "Bash(do echo \"Processing $file\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
