@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服務項目 - 不動產繼承法律880 | 蕭育涵律師</title>
+    <meta name="description" content="不動產繼承法律880服務項目，提供不動產繼承訴訟、遺囑財富傳承規劃、不動產繼承登記等專業法律服務。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-dark': '#001B2F',
+                        'accent-gold': '#CDAB78',
+                        'neutral-gray': '#8A97A0',
+                        'text-light': '#F8F9FA'
+                    },
+                    fontFamily: {
+                        'sans': ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 滾動觸發動畫 - 左側滑入 */
+        .scroll-animate {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+        
+        /* 右側滑入動畫 */
+        .scroll-animate-right {
+            opacity: 0;
+            transform: translateX(50px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        }
+        
+        /* 動畫啟動狀態 */
+        .scroll-animate.animated,
+        .scroll-animate-right.animated {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="absolute top-0 w-full z-50 bg-transparent">
+        <div class="max-w-7xl mx-auto px-6 py-6">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <a href="index.html" class="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-300">
+                        <img src="不動產繼承法律880(logo)2.png" alt="不動產繼承法律880 Logo" class="h-12 w-auto">
+                        <span class="text-2xl font-bold text-white hover:text-accent-gold transition-colors duration-300">不動產繼承法律880</span>
+                    </a>
+                </div>
+                <div class="hidden lg:flex space-x-10">
+                    <a href="index.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">首頁</a>
+                    <a href="service-process.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">服務項目</a>
+                    <a href="service-process.html" class="text-accent-gold font-semibold">服務項目</a>
+                    <a href="team.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">專業團隊</a>
+                    <a href="cases.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">成功案例</a>
+                    <a href="pricing.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">收費標準</a>
+                    <a href="legal-knowledge.html" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">法律知識</a>
+                    <a href="index.html#contact" class="text-white hover:text-accent-gold transition-colors duration-300 font-medium">聯絡我們</a>
+                </div>
+                <div class="lg:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-accent-gold transition-colors duration-300 focus:outline-none">
+                        <svg id="menu-icon" class="w-8 h-8 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                        <svg id="close-icon" class="w-8 h-8 transform transition-transform duration-300 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6m0 12L6 6"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="lg:hidden fixed inset-x-0 top-0 z-40 transform -translate-y-full transition-transform duration-500 ease-in-out">
+            <div class="bg-gradient-to-br from-primary-dark via-primary-dark to-gray-900 backdrop-blur-lg shadow-2xl border-b border-accent-gold/20">
+                <div class="pt-24 pb-8 px-6">
+                    <div class="max-w-sm mx-auto space-y-1">
+                        <a href="index.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                                </svg>
+                                <span class="font-medium text-lg">首頁</span>
+                            </div>
+                        </a>
+                        <a href="service-process.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 002 2h2a2 2 0 002-2V8a2 2 0 00-2-2h-2z"></path>
+                                </svg>
+                                <span class="font-medium text-lg">服務項目</span>
+                            </div>
+                        </a>
+                        <a href="service-process.html" class="mobile-menu-item block px-6 py-4 text-accent-gold bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 002 2h2a2 2 0 002-2V8a2 2 0 00-2-2h-2z"></path>
+                                </svg>
+                                <span class="font-medium text-lg">服務項目</span>
+                            </div>
+                        </a>
+                        <a href="team.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                </svg>
+                                <span class="font-medium text-lg">專業團隊</span>
+                            </div>
+                        </a>
+                        <a href="cases.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                                </svg>
+                                <span class="font-medium text-lg">成功案例</span>
+                            </div>
+                        </a>
+                        <a href="pricing.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                                </svg>
+                                <span class="font-medium text-lg">收費標準</span>
+                            </div>
+                        </a>
+                        <a href="legal-knowledge.html" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                </svg>
+                                <span class="font-medium text-lg">法律知識</span>
+                            </div>
+                        </a>
+                        <a href="index.html#contact" class="mobile-menu-item block px-6 py-4 text-white hover:text-accent-gold hover:bg-white/10 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm border border-transparent hover:border-accent-gold/20">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                                <span class="font-medium text-lg">聯絡我們</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 md:py-24 lg:py-32 flex items-center justify-center text-white" style="background: linear-gradient(rgba(0, 27, 47, 0.9), rgba(0, 27, 47, 0.9)), url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') center/cover">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 md:mb-8 leading-tight px-4">
+                專業<span class="text-accent-gold">服務項目</span>
+            </h1>
+            <p class="text-lg md:text-xl lg:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
+                由律師、地政士(代書)、公證人組成不動產、繼承專業團隊
+                <br>
+                為客戶提供一站式服務
+            </p>
+        </div>
+    </section>
+
+    <!-- Team Introduction -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary-dark mb-6">專業團隊服務</h2>
+                <p class="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
+                    由律師、地政士(代書)、公證人組成不動產、繼承專業團隊，為客戶提供一站式服務，團隊擁有處理數百件繼承與不動產案件經驗，結合經驗豐富的律師與地政士（代書），協助您從協商、訴訟到地政登記、公證一次完成。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Items -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary-dark mb-6">服務項目詳解</h2>
+            </div>
+
+            <!-- Service Items Detail -->
+            <div class="space-y-16">
+                <!-- 1. 不動產繼承訴訟 -->
+                <div class="scroll-animate">
+                    <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+                        <div class="flex items-start space-x-6 mb-8">
+                            <div class="flex-shrink-0">
+                                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+                                    <img src="pic/justice.png" alt="不動產繼承訴訟" class="w-8 h-8 object-cover">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-3xl font-bold text-primary-dark mb-4">不動產繼承訴訟</h3>
+                                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                    不動產繼承案件涉及複雜的法律程序與估價問題，我們擁有豐富的不動產繼承訴訟經驗，能為您理清法律關係，並在訴訟中爭取您的最大權益。
+                                </p>
+                                <div class="grid md:grid-cols-2 gap-8">
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務範圍</h4>
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                繼承糾紛訴訟
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                不動產糾紛訴訟
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                房屋糾紛訴訟
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                遺產糾紛訴訟
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務標籤</h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">經驗豐富</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">策略精準</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">專業用心</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. 遺囑/財富傳承規劃 -->
+                <div class="scroll-animate-right">
+                    <div class="bg-primary-dark/5 rounded-2xl p-8 md:p-12">
+                        <div class="flex items-start space-x-6 mb-8">
+                            <div class="flex-shrink-0">
+                                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+                                    <img src="pic/money-bag.png" alt="遺囑/財富傳承規劃" class="w-8 h-8 object-cover">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-3xl font-bold text-primary-dark mb-4">遺囑/財富傳承規劃</h3>
+                                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                    我們提供專業的遺囑與財產規劃，不僅可以確保資產分配符合個人意願，更能有效節省遺產稅，避免未來繼承人因遺產分配而產生紛爭。
+                                </p>
+                                <div class="grid md:grid-cols-2 gap-8">
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務範圍</h4>
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                遺產稅務規劃與節稅策略
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                生前贈與與繼承之法律效益分析
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                公證遺囑等法律諮詢與撰寫
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                財產、特留分規劃建議
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務標籤</h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">客製服務</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">財富傳承</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">節稅規劃</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. 不動產、繼承登記 -->
+                <div class="scroll-animate">
+                    <div class="bg-accent-gold/10 rounded-2xl p-8 md:p-12">
+                        <div class="flex items-start space-x-6 mb-8">
+                            <div class="flex-shrink-0">
+                                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                                    <img src="pic/building.png" alt="不動產、繼承登記" class="w-8 h-8 object-cover">
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-3xl font-bold text-primary-dark mb-4">不動產、繼承登記</h3>
+                                <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                    不動產、繼承登記流程繁瑣，常讓民眾感到困惑。我們提供專業的不動產繼承登記服務，從文件準備、流程申請到稅務處理，只需安心交給我們辦理。
+                                </p>
+                                <div class="grid md:grid-cols-2 gap-8">
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務範圍</h4>
+                                        <ul class="space-y-2 text-gray-600">
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                繼承、不動產登記
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                節稅試算及遺產稅申報
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                不動產共有物分割處理
+                                            </li>
+                                            <li class="flex items-center">
+                                                <span class="w-2 h-2 bg-accent-gold rounded-full mr-3"></span>
+                                                限定繼承、拋棄繼承辦理
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold text-primary-dark mb-3">服務標籤</h4>
+                                        <div class="flex flex-wrap gap-2">
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">流程透明</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">稅務規劃</span>
+                                            <span class="px-3 py-1 bg-accent-gold/20 text-primary-dark rounded-full text-sm font-medium">安心代辦</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-5xl font-bold text-primary-dark mb-6">委任服務流程</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">我們提供透明化的服務流程，讓您清楚了解每個步驟，安心委任專業團隊處理您的案件</p>
+            </div>
+
+            <!-- Process Steps -->
+            <div class="space-y-20">
+                <!-- Step 1 -->
+                <div class="scroll-animate">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="lg:order-1">
+                            <div class="flex items-start space-x-6">
+                                <div class="flex-shrink-0">
+                                    <div class="w-16 h-16 bg-accent-gold rounded-full flex items-center justify-center text-primary-dark font-bold text-2xl">
+                                        1
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-bold text-primary-dark mb-4">初步諮詢</h3>
+                                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                        加入 LINE，簡述狀況，我們提供15分鐘免費協助評估案情。
+                                    </p>
+                                    <div class="flex flex-col sm:flex-row gap-4">
+                                        <a href="https://line.me/ti/p/@lawyerann" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-accent-gold text-primary-dark font-bold rounded-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105">
+                                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+                                            </svg>
+                                            LINE 免費諮詢
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:order-2 text-center">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-accent-gold/20">
+                                <div class="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full">
+                                    <img src="pic/phone-call.png" alt="Initial Consultation" class="w-full h-full object-cover">
+                                </div>
+                                <h4 class="text-xl font-bold text-primary-dark mb-4">免費案件評估</h4>
+                                <p class="text-gray-600">15分鐘專業諮詢<br>快速了解案件概況</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="scroll-animate-right">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="text-center">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-accent-gold/20">
+                                <div class="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full">
+                                    <img src="pic/compliance.png" alt="Case Assessment" class="w-full h-full object-cover">
+                                </div>
+                                <h4 class="text-xl font-bold text-primary-dark mb-4">專業團隊評估</h4>
+                                <p class="text-gray-600">律師與地政士聯合<br>提供完整解決方案</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-start space-x-6">
+                                <div class="flex-shrink-0">
+                                    <div class="w-16 h-16 bg-accent-gold rounded-full flex items-center justify-center text-primary-dark font-bold text-2xl">
+                                        2
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-bold text-primary-dark mb-4">案件評估</h3>
+                                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                        由律師與地政士（代書）共同確認法律與登記問題，提供具體建議與透明報價。
+                                    </p>
+                                    <div class="bg-accent-gold/10 p-6 rounded-lg">
+                                        <h5 class="font-bold text-primary-dark mb-2">評估包含：</h5>
+                                        <ul class="text-gray-600 space-y-1">
+                                            <li>• 法律風險分析</li>
+                                            <li>• 地政程序確認</li>
+                                            <li>• 稅務影響評估</li>
+                                            <li>• 透明化收費報價</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="scroll-animate">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="lg:order-1">
+                            <div class="flex items-start space-x-6">
+                                <div class="flex-shrink-0">
+                                    <div class="w-16 h-16 bg-accent-gold rounded-full flex items-center justify-center text-primary-dark font-bold text-2xl">
+                                        3
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-bold text-primary-dark mb-4">簽約委任</h3>
+                                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                        確認合作後簽約，開始準備相關資料與作業。
+                                    </p>
+                                    <div class="bg-primary-dark/5 p-6 rounded-lg">
+                                        <h5 class="font-bold text-primary-dark mb-2">簽約流程：</h5>
+                                        <ul class="text-gray-600 space-y-1">
+                                            <li>• 詳細說明服務內容</li>
+                                            <li>• 確認收費標準與付款方式</li>
+                                            <li>• 簽署委任契約</li>
+                                            <li>• 開始準備案件資料</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:order-2 text-center">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-accent-gold/20">
+                                <div class="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full">
+                                    <img src="pic/contract.png" alt="Contract Signing" class="w-full h-full object-cover">
+                                </div>
+                                <h4 class="text-xl font-bold text-primary-dark mb-4">正式委任</h4>
+                                <p class="text-gray-600">簽署委任契約<br>開始專業服務</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="scroll-animate-right">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="text-center">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-accent-gold/20">
+                                <div class="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full">
+                                    <img src="pic/justice.png" alt="Case Processing" class="w-full h-full object-cover">
+                                </div>
+                                <h4 class="text-xl font-bold text-primary-dark mb-4">專業執行</h4>
+                                <p class="text-gray-600">運用專業知識<br>處理各項程序</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-start space-x-6">
+                                <div class="flex-shrink-0">
+                                    <div class="w-16 h-16 bg-accent-gold rounded-full flex items-center justify-center text-primary-dark font-bold text-2xl">
+                                        4
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-bold text-primary-dark mb-4">啟動處理</h3>
+                                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                        運用專業知識與豐富經驗，進行協商、訴訟、地政登記、公證等程序。
+                                    </p>
+                                    <div class="grid sm:grid-cols-2 gap-4">
+                                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+                                            <h6 class="font-bold text-primary-dark mb-1">法律程序</h6>
+                                            <p class="text-sm text-gray-600">訴訟代理、協商調解</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+                                            <h6 class="font-bold text-primary-dark mb-1">地政登記</h6>
+                                            <p class="text-sm text-gray-600">產權移轉、繼承登記</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+                                            <h6 class="font-bold text-primary-dark mb-1">公證服務</h6>
+                                            <p class="text-sm text-gray-600">遺囑公證、契約認證</p>
+                                        </div>
+                                        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+                                            <h6 class="font-bold text-primary-dark mb-1">稅務處理</h6>
+                                            <p class="text-sm text-gray-600">遺產稅申報、節稅規劃</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="scroll-animate">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div class="lg:order-1">
+                            <div class="flex items-start space-x-6">
+                                <div class="flex-shrink-0">
+                                    <div class="w-16 h-16 bg-accent-gold rounded-full flex items-center justify-center text-primary-dark font-bold text-2xl">
+                                        5
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="text-3xl font-bold text-primary-dark mb-4">結案確認</h3>
+                                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                                        協助完成登記或取得判決，並提供後續提醒與建議。
+                                    </p>
+                                    <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-400">
+                                        <h5 class="font-bold text-green-800 mb-2">結案服務：</h5>
+                                        <ul class="text-green-700 space-y-1">
+                                            <li>• 確認案件圓滿完成</li>
+                                            <li>• 交付相關文件資料</li>
+                                            <li>• 提供後續注意事項</li>
+                                            <li>• 長期法律諮詢支援</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:order-2 text-center">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg border-4 border-green-200">
+                                <div class="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full">
+                                    <img src="pic/shield.png" alt="Case Completion" class="w-full h-full object-cover">
+                                </div>
+                                <h4 class="text-xl font-bold text-primary-dark mb-4">圓滿結案</h4>
+                                <p class="text-gray-600">案件完成交付<br>後續服務保障</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-primary-dark text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6">為什麼選擇我們的服務流程？</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">透明、專業、效率的服務流程，讓您的案件得到最佳處理</p>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-white/5 rounded-2xl backdrop-blur-sm border border-accent-gold/20">
+                    <div class="w-20 h-20 mx-auto mb-6 overflow-hidden rounded-full">
+                        <img src="pic/safety (2).png" alt="Transparent" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-accent-gold mb-4">透明化流程</h3>
+                    <p class="text-gray-300">每個步驟都清楚說明，讓您隨時掌握案件進度，沒有隱藏費用或程序。</p>
+                </div>
+                <div class="text-center p-8 bg-white/5 rounded-2xl backdrop-blur-sm border border-accent-gold/20">
+                    <div class="w-20 h-20 mx-auto mb-6 overflow-hidden rounded-full">
+                        <img src="pic/people.png" alt="Professional Team" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-accent-gold mb-4">專業團隊</h3>
+                    <p class="text-gray-300">律師、地政士、公證人組成的專業團隊，提供一站式完整服務。</p>
+                </div>
+                <div class="text-center p-8 bg-white/5 rounded-2xl backdrop-blur-sm border border-accent-gold/20">
+                    <div class="w-20 h-20 mx-auto mb-6 overflow-hidden rounded-full">
+                        <img src="pic/compliant (2).png" alt="Efficient Process" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-2xl font-bold text-accent-gold mb-4">高效執行</h3>
+                    <p class="text-gray-300">豐富經驗與專業知識，確保案件快速且正確地完成處理。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-24 bg-accent-gold text-primary-dark">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-8">準備開始您的案件委任？</h2>
+            <p class="text-xl mb-12 max-w-3xl mx-auto">
+                立即聯繫我們，獲得15分鐘免費案件評估，讓專業團隊為您提供最適合的解決方案
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="https://line.me/ti/p/@lawyerann" target="_blank" class="inline-flex items-center justify-center px-8 py-4 bg-primary-dark text-white font-bold rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+                    </svg>
+                    LINE 免費諮詢
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-accent-gold mb-6">不動產繼承法律880</h3>
+                    <p class="text-gray-400 text-lg leading-relaxed">專業、用心、負責<br>最值得信任的不動產繼承法律團隊</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl mb-6">快速連結</h4>
+                    <ul class="space-y-3 text-gray-400 text-lg">
+                        <li><a href="service-process.html" class="hover:text-accent-gold transition-colors">服務項目</a></li>
+                        <li><a href="service-process.html" class="hover:text-accent-gold transition-colors">服務流程</a></li>
+                        <li><a href="team.html" class="hover:text-accent-gold transition-colors">專業團隊</a></li>
+                        <li><a href="cases.html" class="hover:text-accent-gold transition-colors">成功案例</a></li>
+                        <li><a href="pricing.html" class="hover:text-accent-gold transition-colors">收費標準</a></li>
+                        <li><a href="index.html#contact" class="hover:text-accent-gold transition-colors">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-xl mb-6">聯絡資訊</h4>
+                    <ul class="space-y-3 text-gray-400 text-lg">
+                        <li>電話: 0906-777-070</li>
+                        <li>信箱: whossmilewill@gmail.com</li>
+                        <li>LINE: @lawyerann</li>
+                        <li>地址: 台北市中正區漢口街一段82號3樓</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 不動產繼承法律880. All rights reserved.</p>
+                <p class="mt-2 text-sm">本網站由<a href="https://twlawbot.com/" target="_blank" class="text-accent-gold hover:text-yellow-300 transition-colors duration-300">TaiLexi AI</a>建置</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating LINE Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://line.me/ti/p/@lawyerann" target="_blank">
+            <div style="background-color: #D2B48C;" class="hover:opacity-90 text-white px-6 py-4 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 flex items-center justify-center">
+                <span class="font-semibold text-lg">LINE 免費諮詢</span>
+            </div>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            let isMenuOpen = false;
+
+            function toggleMenu() {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.style.transform = 'translateY(0)';
+                    menuIcon.classList.add('hidden');
+                    closeIcon.classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    mobileMenu.style.transform = 'translateY(-100%)';
+                    menuIcon.classList.remove('hidden');
+                    closeIcon.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }
+            }
+
+            mobileMenuButton.addEventListener('click', toggleMenu);
+
+            // Close menu when clicking on menu items
+            document.querySelectorAll('.mobile-menu-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    if (isMenuOpen) {
+                        toggleMenu();
+                    }
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (isMenuOpen && !mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                    toggleMenu();
+                }
+            });
+
+            // Close menu on window resize if screen becomes large
+            window.addEventListener('resize', function() {
+                if (window.innerWidth >= 1024 && isMenuOpen) {
+                    toggleMenu();
+                }
+            });
+
+            // 滾動觸發動畫
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const element = entry.target;
+                        element.classList.add('animated');
+                        observer.unobserve(element);
+                    }
+                });
+            }, observerOptions);
+
+            // 觀察所有具有 scroll-animate 或 scroll-animate-right 類的元素
+            document.querySelectorAll('.scroll-animate, .scroll-animate-right').forEach(element => {
+                observer.observe(element);
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

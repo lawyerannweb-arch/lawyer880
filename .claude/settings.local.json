@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:rich99.tw)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(find:*)",
+      "Bash(sed:*)",
+      "WebFetch(domain:lawyer880.vercel.app)",
+      "Bash(for file in article-inheritance-tax-planning.html article-inheritance-waiver.html article-mortgage-rights.html article-property-division.html article-real-estate-disputes.html article-will-invalidity.html)",
+      "Bash(do echo \"Processing $file\")",
+      "Bash(done)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
