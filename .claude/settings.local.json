@@ -15,7 +15,8 @@
       "Bash(git push:*)",
       "Bash(for:*)",
       "Bash(do sed -i 's|href=\"\"不動產繼承法律880(logo)2\\.png\"\"|href=\"\"https://raw.githubusercontent.com/lawyerannweb-arch/pic/main/%E4%B8%8D%E5%8B%95%E7%94%A2%E7%B9%BC%E6%89%BF%E6%B3%95%E5%BE%8B880(logo)2.png\"\"|g' \"$file\")",
-      "Bash(do sed -i 's|href=\"\"https://raw\\.githubusercontent\\.com/lawyerannweb-arch/pic/main/%E4%B8%8D%E5%8B%95%E7%94%A2%E7%B9%BC%E6%89%BF%E6%B3%95%E5%BE%8B880(logo)2\\.png\"\"|href=\"\"https://raw.githubusercontent.com/lawyerannweb-arch/pic/main/logo_2.ico\"\"|g' \"$file\")"
+      "Bash(do sed -i 's|href=\"\"https://raw\\.githubusercontent\\.com/lawyerannweb-arch/pic/main/%E4%B8%8D%E5%8B%95%E7%94%A2%E7%B9%BC%E6%89%BF%E6%B3%95%E5%BE%8B880(logo)2\\.png\"\"|href=\"\"https://raw.githubusercontent.com/lawyerannweb-arch/pic/main/logo_2.ico\"\"|g' \"$file\")",
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "ask": []
