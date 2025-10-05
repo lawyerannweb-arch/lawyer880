@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lawyer880.com/sitemap.xml
+
+# Disallow sensitive files
+Disallow: /googlecaf92c162f582b73.html
