@@ -1,22 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:rich99.tw)",
-      "WebSearch",
-      "WebFetch(domain:unsplash.com)",
-      "Bash(find:*)",
-      "Bash(sed:*)",
-      "WebFetch(domain:lawyer880.vercel.app)",
-      "Bash(for file in article-inheritance-tax-planning.html article-inheritance-waiver.html article-mortgage-rights.html article-property-division.html article-real-estate-disputes.html article-will-invalidity.html)",
-      "Bash(do echo \"Processing $file\")",
-      "Bash(done)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(for:*)",
-      "Bash(do sed -i 's|href=\"\"不動產繼承法律880(logo)2\\.png\"\"|href=\"\"https://raw.githubusercontent.com/lawyerannweb-arch/pic/main/%E4%B8%8D%E5%8B%95%E7%94%A2%E7%B9%BC%E6%89%BF%E6%B3%95%E5%BE%8B880(logo)2.png\"\"|g' \"$file\")",
-      "Bash(do sed -i 's|href=\"\"https://raw\\.githubusercontent\\.com/lawyerannweb-arch/pic/main/%E4%B8%8D%E5%8B%95%E7%94%A2%E7%B9%BC%E6%89%BF%E6%B3%95%E5%BE%8B880(logo)2\\.png\"\"|href=\"\"https://raw.githubusercontent.com/lawyerannweb-arch/pic/main/logo_2.ico\"\"|g' \"$file\")",
-      "Bash(mkdir:*)"
+      "Bash(then echo \"  ✅ robots.txt 存在\")",
+      "Bash(else echo \"  ❌ robots.txt 不存在\")",
+      "Bash(fi echo \"\" echo \"3. sitemap.xml 存在檢查:\" if [ -f \"sitemap.xml\" ])",
+      "Bash(then echo \"  ✅ sitemap.xml 存在\")",
+      "Bash(else echo \"  ❌ sitemap.xml 不存在\")",
+      "Bash(fi echo \"\" echo \"4. 標準網址設置:\" echo \"  主網址: https://lawyer880.com/\" grep -o \"https://lawyer880.com[^\"\"]*\" *.html)"
     ],
     "deny": [],
     "ask": []
