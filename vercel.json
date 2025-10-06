@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "lawyer880.vercel.app"
+        }
+      ],
+      "destination": "https://lawyer880.com/:path*",
+      "statusCode": 301
+    }
+  ]
+}
