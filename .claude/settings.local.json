@@ -1,12 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(then echo \"  ✅ robots.txt 存在\")",
-      "Bash(else echo \"  ❌ robots.txt 不存在\")",
-      "Bash(fi echo \"\" echo \"3. sitemap.xml 存在檢查:\" if [ -f \"sitemap.xml\" ])",
-      "Bash(then echo \"  ✅ sitemap.xml 存在\")",
-      "Bash(else echo \"  ❌ sitemap.xml 不存在\")",
-      "Bash(fi echo \"\" echo \"4. 標準網址設置:\" echo \"  主網址: https://lawyer880.com/\" grep -o \"https://lawyer880.com[^\"\"]*\" *.html)"
+      "Bash(do [ \"$file\" != \"index.html\" ])",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []
