@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://lawyer880.com/$1",
-      "permanent": true
-    }
-  ]
-}
