@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(do [ \"$file\" != \"index.html\" ])",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
