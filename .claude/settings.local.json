@@ -3,7 +3,8 @@
     "allow": [
       "Bash(do [ \"$file\" != \"index.html\" ])",
       "Bash(find:*)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:lawyer880.vercel.app)"
     ],
     "deny": [],
     "ask": []
