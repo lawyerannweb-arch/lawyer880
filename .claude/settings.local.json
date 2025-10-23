@@ -4,7 +4,8 @@
       "Bash(do [ \"$file\" != \"index.html\" ])",
       "Bash(find:*)",
       "WebSearch",
-      "WebFetch(domain:lawyer880.vercel.app)"
+      "WebFetch(domain:lawyer880.vercel.app)",
+      "Bash(ls:*)"
     ],
     "deny": [],
     "ask": []
